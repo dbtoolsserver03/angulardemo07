@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular07';
+  title = 'angulardemo07';
+
+  public flag:boolean=true;
+
+
+  changeTilte(){
+
+
+      this.title="改变后的title";
+  }
+
+  changeFlag(){
+
+    this.flag=!this.flag;
+  }
 }
